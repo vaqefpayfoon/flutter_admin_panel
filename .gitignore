@@ -8,7 +8,23 @@
 .buildlog/
 .history
 .svn/
-
+.all-contributorsrc
+        .gitignore
+        .metadata
+        .vscode/
+        LICENSE
+        README.md
+        android/
+        gif.gif
+        ios/
+        lib/
+        macos/
+        pubspec.lock
+        pubspec.yaml
+        test/
+        ui.png
+        web/
+        windows/
 # IntelliJ related
 *.iml
 *.ipr

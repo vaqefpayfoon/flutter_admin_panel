@@ -32,7 +32,7 @@ class MyFiles extends StatelessWidget {
               ),
               onPressed: () {},
               icon: Icon(Icons.add),
-              label: Text("Start New Configuration"),
+              label: Text("New Config"),
             ),
           ],
         ),

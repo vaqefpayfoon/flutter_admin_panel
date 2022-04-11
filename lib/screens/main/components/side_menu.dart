@@ -12,8 +12,16 @@ class SideMenu extends StatelessWidget {
       child: ListView(
         children: [
           DrawerHeader(
-              child:
-                  new Image.asset('images/logo.png', width: 300, height: 300)),
+            child:
+                // new Image.asset('images/logo.png', width: 300, height: 300)
+                Image(
+              image: AssetImage('assets/images/logo.png'),
+              alignment: Alignment.center,
+              height: double.infinity,
+              width: double.infinity,
+              fit: BoxFit.scaleDown,
+            ),
+          ),
           DrawerListTile(
             title: "Dashboard",
             svgSrc: "assets/icons/menu_dashbord.svg",

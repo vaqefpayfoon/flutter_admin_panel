@@ -37,13 +37,13 @@ List demoRecentFiles = [
   ),
   RecentFile(
     icon: "assets/icons/pdf_file.svg",
-    title: "General Inquiries",
+    title: "Inquiries",
     date: "25-02-2021",
     status: "41 pendings",
   ),
   RecentFile(
     icon: "assets/icons/excle_file.svg",
-    title: "Insurence Inquiries",
+    title: "Insurence",
     date: "25-02-2021",
     status: "34 pendings",
   ),
